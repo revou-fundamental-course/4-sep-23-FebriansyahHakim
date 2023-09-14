@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMP</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="headerClass">
+        <h1 class="title1">KMP</h1>
+        <h5 class="title2">Kalkulator Matematika Persegi</h5>
+    </header>
+    <section>
+        <article>
+            <p>
+                Selamat Datang di KMP!<br>
+                KMP adalah web apps sederhana yang digunakan untuk menghitung luas dan keliling dari bangun persegi
+            </p>
+        </article>
+        <img src="Assets/persegi.jpg">
+        <article>
+            <h1>Persegi</h1>
+            <p>Persegi atau bujur sangkar adalah bangun datar dua dimensi yang dibentuk oleh empat buah rusuk yang sama panjang dan memiliki empat buah sudut yang kesemuanya adalah sudut siku-siku.<br>
+                Persegi merupakan turunan dari segi empat yang mempunyai ciri khusus keempat sisinya sama panjang dan keempat sudutnya siku-siku (90°).</p>
+            <p>Rumus Keliling Persegi = sisi + sisi + sisi + sisi / 4 x sisi</p>
+            <p>Rumus Luas Persegi = sisi x sisi</p>
+        </article>
+        
+        <article class="inputSection">
+        
+            <p id="hitung">Mulai Menghitung</p>
+            <input type="number" id="sisi" placeholder="Masukkan Sisi">
+        </article>
+
+        <article class="buttonSection">
+            <button onclick="hitungKeliling()">Hitung Keliling</button>
+            <button onclick="hitungLuas()">Hitung Luas</button>
+            <button onclick="reset()">Reset</button>
+        </article>
+
+        <article>
+            <p id="hasil">
+                Hasil :<br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+        </article>
+    </section>
+    <script src="JS/script.js"></script>
+    <footer>
+        <h3 class="foot1">Dibuat Oleh :</h3>
+        <h1 class="foot2">Febriansyah Hakim</h1>
+    </footer>
+</body>
+</html>
